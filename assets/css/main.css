@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital@1&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #BFC8E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: #151B32;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.header-content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    bottom: 0;
+    width: auto;
+}
+
+.nav {
+    float: left;
+    display: block;
+    color: #151B32;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+nav:hover {
+    color: #FFFFFF;
+    background-color: #849FFF; 
+}
+
+h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151B32;
+}
+
+  
+.active1 {
+    color: #FFFFFF;
+    background-color: #849FFF;
+}
+
+.search {
+    float: left;
+    display: block;
+    color: #151B32;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #BFC8E6;
+    color: #BFC8E6;
+    width: 30%;
+}
+
+.btn {
+    border: none;
+    background-color: #FFFFFF;
+    color: #BFC8E6;
+    padding-right: 10px;
+}
+
+.content-ser {
+    border: none;
+    background-color: #FFFFFF;
+    color: #BFC8E6;
+}
+
+
+
+
+
+
